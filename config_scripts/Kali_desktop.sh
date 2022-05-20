@@ -1,8 +1,8 @@
 # Create folders and place artifacts
 wget https://github.com/dnomyard/TeachCyber_mods/raw/main/artifacts/lab1/buffer_oflow.tar -P /home/student/lab1/
-wget https://raw.githubusercontent.com/dnomyard/TeachCyber_mods/main/artifacts/lab2/default_firewall.sh -P /etc/
+wget https://raw.githubusercontent.com/dnomyard/TeachCyber_mods/main/artifacts/lab2/default_firewall.sh 
 sudo mv default_firewall.sh /etc/
-wget https://raw.githubusercontent.com/dnomyard/TeachCyber_mods/main/artifacts/lab2/extingui.sh -P /etc/
+wget https://raw.githubusercontent.com/dnomyard/TeachCyber_mods/main/artifacts/lab2/extingui.sh
 sudo mv extingui.sh /etc/
 wget https://raw.githubusercontent.com/dnomyard/TeachCyber_mods/main/artifacts/lab2/firewall.sh -P /home/student/lab2/
 sudo chmod +x /etc/default_firewall.sh
