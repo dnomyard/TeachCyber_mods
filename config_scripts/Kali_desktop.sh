@@ -12,6 +12,6 @@ sudo cp /home/student/lab2/firewall.sh /etc/
 #########################
 ## minor cleanup        #
 #cd ~
-#sudo rm *.sh
-#history -c
+sudo rm *.sh
+history -c
 
